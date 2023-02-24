@@ -1,4 +1,4 @@
-package problems;
+
 
 import java.util.*;
 
@@ -66,7 +66,7 @@ public class PrintPrime {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		List<Integer> list = generatePrimes(n);
-		System.out.println(list);
+		// System.out.println(list);
 		int a[]=new int[list.size()];
 		for(int i=0;i<list.size();i++) {
 			a[i]=list.get(i);

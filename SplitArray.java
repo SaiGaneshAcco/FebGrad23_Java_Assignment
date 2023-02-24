@@ -1,4 +1,4 @@
-package problems;
+
 import java.util.*;
 
 public class SplitArray {

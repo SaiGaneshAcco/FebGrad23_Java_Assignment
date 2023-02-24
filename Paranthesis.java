@@ -1,4 +1,4 @@
-package problems;
+
 
 import java.util.*;
 
@@ -120,7 +120,7 @@ public class Paranthesis {
 				sb=new StringBuilder(str);
 				if(sb.charAt(i)!=')'  && sb.charAt(i)!='+' && sb.charAt(i)!='-' && sb.charAt(i)!='*' && sb.charAt(i)!='/') {
 					sb.insert(i, '(');
-					System.out.println(sb);
+//					System.out.println(sb);
 					try {
 						int temp=evaluate(sb.toString());
 						if(temp==res) {
